@@ -1,0 +1,60 @@
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #817070;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f3f0f0;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #0c0808;
+    border-radius: 5px;
+  }
+  
+  .forgot-password,
+  .new-user {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #080606;
+  }
+  
+  button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #82e7bd;
+    color: rgb(15, 11, 11);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4b49e7;
+  }
+  
